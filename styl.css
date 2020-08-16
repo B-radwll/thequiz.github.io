@@ -31,24 +31,12 @@ body{
     color : blue;
 }
 
-#qImg{
-    width : 200px;
-    height : 200px;
-    position: absolute;
-    left : 0px;
-    top : 0px;
-}
-#qImg img{
-    width : 200px;
-    height : 200px;
-    border-top-left-radius: 5px;
-}
 
 #question{
     width:500px;
     height : 125px;
     position: absolute;
-    right:0;
+    right: 125px;
     top:0;
 }
 #question p{
@@ -60,13 +48,13 @@ body{
 #choices{
     width : 480px;
     position: absolute;
-    right : 0;
+    right : 200px;
     top : 125px;
     padding : 10px
 }
 .choice{
     display: inline-block;
-    width : 135px;
+    width : 400px;
     text-align: center;
     border : 1px solid grey;
     border-radius: 5px;
